@@ -22,10 +22,11 @@ body {
     height: 20vh;
     width: 20vw;
     border: none;
-    transition: all 2s ease;
-    padding-bottom: 200px;
-    padding-left: 100px;
-    padding-right: 300px;
+    transition: all 0.5s ease;
+    padding-bottom: 120px;
+    padding-left: 50px;
+    padding-right: 220px;
+    padding-top: 20px;
     border: 28px solid #982B1C;
 }
 

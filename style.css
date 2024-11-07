@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400&display=swap');
+
+body {
+    background-color: #FAF7F0;
+    font-family: 'JetBrains Mono';
+    overflow: hidden;
+}
+
+.container {
+    height: 240px;
+    width: 440px;
+    background-color: #800000;
+    position: absolute;
+    top: 25%;
+    right: 18%;
+    border: 28px solid #982B1C;
+}
+
+.container.expanded {
+    height: 20vh;
+    width: 20vw;
+    border: none;
+    transition: all 2s ease;
+    padding-bottom: 200px;
+    padding-left: 100px;
+    padding-right: 300px;
+    border: 28px solid #982B1C;
+}
+
+.sign-up-form {
+    color: #F2E8C6;
+    font-size: 12px;
+}
+
+.sign-up-form input {
+    display: flex;
+    font-family: 'JetBrains Mono';
+    background-color: #DAD4B5;
+    border: none;
+    padding: 8px 12px;
+    margin-bottom: 12px;
+    font-size: 12px;
+}
+
+.sign-up-form button {
+    background-color: #DAD4B5;
+    border: none;
+    padding: 8px 16px;
+    font-family: 'JetBrains Mono';
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.side-text {
+    position: absolute;
+    left: 120px;
+    width: 120px;
+    font-size: 12px;
+    line-height: 1.2;
+    color: #4A4947;
+    text-orientation: mixed;
+    writing-mode: vertical-rl;
+    animation: textScroll 100s linear infinite;
+    transform: translateY(100%);
+    text-align: right;
+}
+
+@keyframes textScroll {
+    0% {
+      transform: translateY(15%);
+    }
+    100% {
+      transform: translateY(-50%);
+    }
+}

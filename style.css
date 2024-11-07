@@ -12,8 +12,10 @@ body {
     background-color: #800000;
     position: absolute;
     top: 25%;
-    right: 18%;
-    border: 28px solid #982B1C;
+    right: 21%;
+    border: 22px solid #982B1C;
+    opacity: 93%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 .container.expanded {
@@ -67,7 +69,7 @@ body {
 
 @keyframes textScroll {
     0% {
-      transform: translateY(15%);
+      transform: translateY(55%);
     }
     100% {
       transform: translateY(-50%);
